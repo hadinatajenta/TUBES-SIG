@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,500;1,600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+/* CSS untuk body dan container */
+body {
+  background-color: #f2f2f2;
+  height: 100vh;
+}
+
+#container {
+  margin: 0 auto;
+  max-width: 1000px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  height: 100%;
+}
+
+/* CSS untuk header */
+header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+header button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+header p {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+/* CSS untuk form */
+.parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.child {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+input[type="text"] {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+button[type="submit"] {
+  background-color: #008aff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0061a8;
+}
+
+input[type="file"] {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+input[type="file"]:hover {
+  background-color: #e6e6e6;
+}
+
+input[type="file"]::file-selector-button {
+  background-color: #008aff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="file"]::file-selector-button:hover {
+  background-color: #0061a8;
+}
+/* CSS untuk textarea */
+.ckeditor {
+  margin-bottom: 20px;
+}
+
+textarea {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  resize: vertical;
+}
